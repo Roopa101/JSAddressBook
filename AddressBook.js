@@ -19,10 +19,14 @@ while (flag) {
             console.log(contactInfoList);
             break;
         case 3:
-            let fName = prompt("Enter the First Name to edit Contact details : ");
+            let fName = prompt("Enter the first Name to edit Contact details : ");
             contactInfoList = addressBookService.editContact(contactInfoList, fName);
             break;
         case 4:
+            let pName = prompt("Enter the first Name to delete Contact details : ");
+            contactInfoList = addressBookService.deleteContact(contactInfoList,pName);
+            break;
+        case 5:
             console.log("EXITED !!!");
             flag = false;
             break;
