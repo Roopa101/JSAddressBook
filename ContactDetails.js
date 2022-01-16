@@ -149,7 +149,7 @@ class ContactDetails {
             this.email = email;
         }
         else {
-            throw "Incorrect email address !!!";
+            throw "Incorrect email address ";
         }
     }
 

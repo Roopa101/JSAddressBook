@@ -35,7 +35,7 @@ class AddressBookService {
                 console.log("Press 5 to edit Zip");
                 console.log("Press 6 to edit Phone Number");
                 console.log("Press 7 to edit Email");
-                let option = parseInt(prompt("Enter your choice : "));
+                let option = parseInt(prompt("Enter your Choice : "));
                 let contactInfo = new ContactDetails();
 
                 switch (option) {
